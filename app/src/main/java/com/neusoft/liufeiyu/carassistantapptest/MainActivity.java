@@ -33,5 +33,13 @@ public class MainActivity extends AppCompatActivity {
                 textView.setText(String.valueOf(num));
             }
         });
+
+        findViewById(R.id.button3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                num--;
+                textView.setText(String.valueOf(num));
+            }
+        });
     }
 }
